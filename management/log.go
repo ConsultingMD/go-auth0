@@ -147,6 +147,32 @@ func (l *Log) TypeName() string {
 	return ""
 }
 
+type Logv2 map[string]interface{}
+
+func (l Logv2) GetID() string {
+	if l == nil {
+		return ""
+	}
+	if _, ok := l["_id"]; !ok {
+		return ""
+	}
+	return l["_id"].(string)
+}
+
+func (l Logv2) GetDate() time.Time {
+	if l == nil {
+		return time.Time{}
+	}
+	if _, ok := l["date"]; !ok {
+		return time.Time{}
+	}
+	return l["date"].(time.Time)
+}
+
+func (l Logv2) String() string {
+	return Stringify(l)
+}
+
 // UnmarshalJSON is a custom deserializer for the Log type.
 //
 // It is required due to differences in the scope field which cane be a string or array of strings.
@@ -205,6 +231,11 @@ func (m *LogManager) Read(ctx context.Context, id string, opts ...RequestOption)
 //
 // See: https://auth0.com/docs/api/management/v2#!/Logs/get_logs
 func (m *LogManager) List(ctx context.Context, opts ...RequestOption) (l []*Log, err error) {
+	err = m.management.Request(ctx, "GET", m.management.URI("logs"), &l, opts...)
+	return
+}
+
+func (m *LogManager) Listv2(ctx context.Context, opts ...RequestOption) (l []*Logv2, err error) {
 	err = m.management.Request(ctx, "GET", m.management.URI("logs"), &l, opts...)
 	return
 }
