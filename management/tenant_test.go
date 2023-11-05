@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/auth0/go-auth0"
+	"github.com/ConsultingMD/go-auth0"
 )
 
 func TestTenantManager(t *testing.T) {

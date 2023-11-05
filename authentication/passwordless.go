@@ -3,9 +3,9 @@ package authentication
 import (
 	"context"
 
-	"github.com/auth0/go-auth0/authentication/oauth"
-	"github.com/auth0/go-auth0/authentication/passwordless"
-	"github.com/auth0/go-auth0/internal/idtokenvalidator"
+	"github.com/ConsultingMD/go-auth0/authentication/oauth"
+	"github.com/ConsultingMD/go-auth0/authentication/passwordless"
+	"github.com/ConsultingMD/go-auth0/internal/idtokenvalidator"
 )
 
 // Passwordless exposes logging in using the passwordless APIs.

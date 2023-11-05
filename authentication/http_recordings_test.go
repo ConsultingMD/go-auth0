@@ -12,7 +12,7 @@ import (
 	"github.com/lestrrat-go/jwx/v2/jwk"
 	"github.com/lestrrat-go/jwx/v2/jws"
 
-	"github.com/auth0/go-auth0/authentication/oauth"
+	"github.com/ConsultingMD/go-auth0/authentication/oauth"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/auth0/go-auth0/authentication/oauth"
+	"github.com/ConsultingMD/go-auth0/authentication/oauth"
 )
 
 func TestOAuthLoginWithPassword(t *testing.T) {

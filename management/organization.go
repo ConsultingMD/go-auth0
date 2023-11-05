@@ -280,7 +280,7 @@ func (m *OrganizationManager) UpdateConnection(ctx context.Context, id string, c
 
 // Invitations retrieves invitations to organization.
 // Note that when paginating this response the `HasNext` helper cannot be used, so instead check the length of the returned list
-// manually and break when there are 0 entries. See https://github.com/auth0/go-auth0/issues/48 for more context.
+// manually and break when there are 0 entries. See https://github.com/ConsultingMD/go-auth0/issues/48 for more context.
 //
 // See: https://auth0.com/docs/api/management/v2/#!/Organizations/get_invitations
 func (m *OrganizationManager) Invitations(ctx context.Context, id string, opts ...RequestOption) (i *OrganizationInvitationList, err error) {

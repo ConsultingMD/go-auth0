@@ -2,12 +2,12 @@
 
 <div align="center">
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/auth0/go-auth0.svg)](https://pkg.go.dev/github.com/auth0/go-auth0)
-[![Go Report Card](https://goreportcard.com/badge/github.com/auth0/go-auth0?style=flat-square)](https://goreportcard.com/report/github.com/auth0/go-auth0)
-[![Release](https://img.shields.io/github/v/release/auth0/go-auth0?include_prereleases&style=flat-square)](https://github.com/auth0/go-auth0/releases)
-[![License](https://img.shields.io/github/license/auth0/go-auth0.svg?style=flat-square)](https://github.com/auth0/go-auth0/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/auth0/go-auth0/main.yml?branch=main&style=flat-square)](https://github.com/auth0/go-auth0/actions?query=branch%3Amain)
-[![Codecov](https://img.shields.io/codecov/c/github/auth0/go-auth0?style=flat-square)](https://codecov.io/gh/auth0/go-auth0)
+[![GoDoc](https://pkg.go.dev/badge/github.com/ConsultingMD/go-auth0.svg)](https://pkg.go.dev/github.com/ConsultingMD/go-auth0)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ConsultingMD/go-auth0?style=flat-square)](https://goreportcard.com/report/github.com/ConsultingMD/go-auth0)
+[![Release](https://img.shields.io/github/v/release/ConsultingMD/go-auth0?include_prereleases&style=flat-square)](https://github.com/ConsultingMD/go-auth0/releases)
+[![License](https://img.shields.io/github/license/ConsultingMD/go-auth0.svg?style=flat-square)](https://github.com/ConsultingMD/go-auth0/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ConsultingMD/go-auth0/main.yml?branch=main&style=flat-square)](https://github.com/ConsultingMD/go-auth0/actions?query=branch%3Amain)
+[![Codecov](https://img.shields.io/codecov/c/github/ConsultingMD/go-auth0?style=flat-square)](https://codecov.io/gh/ConsultingMD/go-auth0)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fauth0%2Fgo-auth0.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fauth0%2Fgo-auth0?ref=badge_shield)
 
 📚 [Documentation](#documentation) • 🚀 [Getting Started](#getting-started) • 💬 [Feedback](#feedback)
@@ -20,7 +20,7 @@
 
 ## Documentation
 
-- [Godoc](https://pkg.go.dev/github.com/auth0/go-auth0) - explore the Go SDK documentation.
+- [Godoc](https://pkg.go.dev/github.com/ConsultingMD/go-auth0) - explore the Go SDK documentation.
 - [Docs site](https://www.auth0.com/docs) — explore our docs site and learn more about Auth0.
 - [Examples](./EXAMPLES.md) - Further examples around usage of the SDK.
 
@@ -35,7 +35,7 @@ This library follows the [same support policy as Go](https://go.dev/doc/devel/re
 ### Installation
 
 ```shell
-go get github.com/auth0/go-auth0
+go get github.com/ConsultingMD/go-auth0
 ```
 
 ### Usage
@@ -53,9 +53,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/auth0/go-auth0/authentication"
-	"github.com/auth0/go-auth0/authentication/database"
-	"github.com/auth0/go-auth0/authentication/oauth"
+	"github.com/ConsultingMD/go-auth0/authentication"
+	"github.com/ConsultingMD/go-auth0/authentication/database"
+	"github.com/ConsultingMD/go-auth0/authentication/oauth"
 )
 
 func main() {
@@ -113,8 +113,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/auth0/go-auth0"
-	"github.com/auth0/go-auth0/management"
+	"github.com/ConsultingMD/go-auth0"
+	"github.com/ConsultingMD/go-auth0/management"
 )
 
 func main() {
@@ -180,12 +180,12 @@ the background by retrying the API request when the limit is lifted.
 We appreciate feedback and contribution to this repo! Before you get started, please see the following:
 
 - [Contribution Guide](./CONTRIBUTING.md)
-- [Auth0's General Contribution Guidelines](https://github.com/auth0/open-source-template/blob/master/GENERAL-CONTRIBUTING.md)
-- [Auth0's Code of Conduct Guidelines](https://github.com/auth0/open-source-template/blob/master/CODE-OF-CONDUCT.md)
+- [Auth0's General Contribution Guidelines](https://github.com/ConsultingMD/open-source-template/blob/master/GENERAL-CONTRIBUTING.md)
+- [Auth0's Code of Conduct Guidelines](https://github.com/ConsultingMD/open-source-template/blob/master/CODE-OF-CONDUCT.md)
 
 ### Raise an issue
 
-To provide feedback or report a bug, [please raise an issue on our issue tracker](https://github.com/auth0/go-auth0/issues).
+To provide feedback or report a bug, [please raise an issue on our issue tracker](https://github.com/ConsultingMD/go-auth0/issues).
 
 ### Vulnerability Reporting
 

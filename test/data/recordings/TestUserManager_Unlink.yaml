@@ -164,7 +164,7 @@ interactions:
                 - application/json
             User-Agent:
                 - Go-Auth0-SDK/latest
-        url: https://go-auth0-dev.eu.auth0.com/api/v2/users/auth0%7C63d17c6b8869daf88ed7dbb8/identities/auth0/63d17c6ce99d3933163bddc2
+        url: https://go-auth0-dev.eu.auth0.com/api/v2/users/auth0%7C63d17c6b8869daf88ed7dbb8/identities/ConsultingMD/63d17c6ce99d3933163bddc2
         method: DELETE
       response:
         proto: HTTP/2.0

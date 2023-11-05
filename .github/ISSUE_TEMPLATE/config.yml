@@ -4,5 +4,5 @@ contact_links:
     url: https://community.auth0.com/c/sdks/5
     about: Ask general support or usage questions in the Auth0 Community forums
   - name: 📖 SDK API Documentation
-    url: https://pkg.go.dev/github.com/auth0/go-auth0
+    url: https://pkg.go.dev/github.com/ConsultingMD/go-auth0
     about: Read the API documentation for this SDK

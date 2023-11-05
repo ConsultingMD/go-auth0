@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/auth0/go-auth0"
+	"github.com/ConsultingMD/go-auth0"
 )
 
 // Client is an application or a sso integration.

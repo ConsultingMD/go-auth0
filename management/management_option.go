@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/auth0/go-auth0/internal/client"
+	"github.com/ConsultingMD/go-auth0/internal/client"
 )
 
 // Option is used for passing options to the Management client.

@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/auth0/go-auth0/authentication/oauth"
-	"github.com/auth0/go-auth0/authentication/passwordless"
+	"github.com/ConsultingMD/go-auth0/authentication/oauth"
+	"github.com/ConsultingMD/go-auth0/authentication/passwordless"
 )
 
 func TestSendEmail(t *testing.T) {

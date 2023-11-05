@@ -6,10 +6,10 @@ Package auth0 provides a client for using the Auth0 Authentication and Managemen
 # Usage
 
 	import (
-		"github.com/auth0/go-auth0"
-		"github.com/auth0/go-auth0/authentication"
-		"github.com/auth0/go-auth0/authentication/database"
-		"github.com/auth0/go-auth0/authentication/oauth"
+		"github.com/ConsultingMD/go-auth0"
+		"github.com/ConsultingMD/go-auth0/authentication"
+		"github.com/ConsultingMD/go-auth0/authentication/database"
+		"github.com/ConsultingMD/go-auth0/authentication/oauth"
 	)
 
 Initialize a new client using a context, domain, client ID, and client secret if required.
@@ -53,8 +53,8 @@ Now we have an authentication client, we can interact with the Auth0 Authenticat
 Usage
 
 	import (
-		"github.com/auth0/go-auth0"
-		"github.com/auth0/go-auth0/management"
+		"github.com/ConsultingMD/go-auth0"
+		"github.com/ConsultingMD/go-auth0/management"
 	)
 
 Initialize a new client using a domain, client ID and secret.

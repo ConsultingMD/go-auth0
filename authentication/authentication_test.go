@@ -20,9 +20,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/auth0/go-auth0/authentication/database"
-	"github.com/auth0/go-auth0/authentication/oauth"
-	"github.com/auth0/go-auth0/internal/client"
+	"github.com/ConsultingMD/go-auth0/authentication/database"
+	"github.com/ConsultingMD/go-auth0/authentication/oauth"
+	"github.com/ConsultingMD/go-auth0/internal/client"
 )
 
 var (

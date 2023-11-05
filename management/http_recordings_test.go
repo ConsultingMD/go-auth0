@@ -12,7 +12,7 @@ import (
 	"gopkg.in/dnaeon/go-vcr.v3/cassette"
 	"gopkg.in/dnaeon/go-vcr.v3/recorder"
 
-	"github.com/auth0/go-auth0"
+	"github.com/ConsultingMD/go-auth0"
 )
 
 const (

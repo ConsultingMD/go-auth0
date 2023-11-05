@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/auth0/go-auth0"
+	"github.com/ConsultingMD/go-auth0"
 )
 
 func TestAttackProtection(t *testing.T) {

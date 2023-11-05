@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/auth0/go-auth0/internal/client"
-	"github.com/auth0/go-auth0/internal/idtokenvalidator"
+	"github.com/ConsultingMD/go-auth0/internal/client"
+	"github.com/ConsultingMD/go-auth0/internal/idtokenvalidator"
 )
 
 // UserInfoResponse defines the response from the user info API.
