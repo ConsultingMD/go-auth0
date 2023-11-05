@@ -166,7 +166,13 @@ func (l Logv2) GetDate() time.Time {
 	if _, ok := l["date"]; !ok {
 		return time.Time{}
 	}
-	return l["date"].(time.Time)
+	dateStr := l["date"].(string)
+	parsed, err := time.Parse(time.RFC3339, dateStr)
+	if err != nil {
+		fmt.Println("Failed to parse dateStr " + dateStr)
+		return time.Time{}
+	}
+	return parsed
 }
 
 func (l Logv2) String() string {
