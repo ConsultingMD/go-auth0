@@ -1,3 +1,5 @@
+# DO NOT USE THIS - Any IH service should use the auth0 client module from go-common
+
 ![Go SDK for Auth0](https://cdn.auth0.com/website/sdks/banners/go-auth0-banner.png)
 
 <div align="center">
